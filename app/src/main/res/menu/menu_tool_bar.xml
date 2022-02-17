@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".HomePage">
+
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Search"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/menu_camera"
+        android:orderInCategory="2"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:title="Menu Camera"
+        app:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="3"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Setting"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/action_alert"
+        android:orderInCategory="4"
+        android:icon="@android:drawable/ic_dialog_alert"
+        android:title="Dialog Alert"
+        app:showAsAction="never"></item>
+
+    <item
+        android:id="@+id/action_info"
+        android:orderInCategory="5"
+        android:title="Dialog Info"
+        android:icon="@android:drawable/ic_dialog_info"
+        app:showAsAction="never"></item>
+
+
+</menu>
